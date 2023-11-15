@@ -636,7 +636,7 @@ function getMaxNumber(...args) {
  */
 function getRandomInteger(min, max) {
   // throw new Error('Not implemented');
-  return Math.random() * (max - min) + min;
+  return Math.trunc(Math.random() * (max - min) + min);
 }
 
 /**
