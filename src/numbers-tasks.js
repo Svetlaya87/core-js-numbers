@@ -682,6 +682,7 @@ function getCountOfOddNumbers(number) {
   return sum;
 }
 
+
 module.exports = {
   getRectangleArea,
   getCircleCircumference,
